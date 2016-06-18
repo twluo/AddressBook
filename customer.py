@@ -3,6 +3,7 @@ class customer:
         self.name = name
         self.phoneNumber = phoneNumber
         self.address = address
+
     def __str__(self):
         string = "Name: " + self.name + "\n"
         string += "Phone Number: " + self.phoneNumber + "\n"
